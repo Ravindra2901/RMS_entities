@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <id>1</id>
+    <name>buffalo wingz</name>
+    <cost>8.99</cost>
+  </row>
+  <row>
+    <id>2</id>
+    <name>breast strips</name>
+    <cost>5.66</cost>
+  </row>
+  <row>
+    <id>3</id>
+    <name>cheese steaks</name>
+    <cost>7</cost>
+  </row>
+</root>

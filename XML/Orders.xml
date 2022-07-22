@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <id>1</id>
+    <menu_id>1</menu_id>
+    <table_no>2</table_no>
+    <customer_id>1</customer_id>
+    <Datetime>21-07-2022 06.40:38</Datetime>
+    <quantity>2</quantity>
+    <subtotal>17.98</subtotal>
+  </row>
+  <row>
+    <id>2</id>
+    <menu_id>3</menu_id>
+    <table_no>2</table_no>
+    <customer_id>1</customer_id>
+    <Datetime>21-07-2022 06.45:38</Datetime>
+    <quantity>3</quantity>
+    <subtotal>21</subtotal>
+  </row>
+  <row>
+    <id>3</id>
+    <menu_id>3</menu_id>
+    <table_no>4</table_no>
+    <customer_id>2</customer_id>
+    <Datetime>22-07-2022 07.40:38</Datetime>
+    <quantity>1</quantity>
+    <subtotal>7</subtotal>
+  </row>
+  <row>
+    <id>4</id>
+    <menu_id>2</menu_id>
+    <table_no>1</table_no>
+    <customer_id>3</customer_id>
+    <Datetime>23-07-2022 08.40:38</Datetime>
+    <quantity>1</quantity>
+    <subtotal>5.66</subtotal>
+  </row>
+</root>

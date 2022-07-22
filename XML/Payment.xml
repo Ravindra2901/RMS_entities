@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <id>1</id>
+    <customer_id>1</customer_id>
+    <datatime>21-07-2022 08.45:38</datatime>
+    <type>card</type>
+    <total>38.98</total>
+  </row>
+  <row>
+    <id>2</id>
+    <customer_id>2</customer_id>
+    <datatime>22-07-2022 08.30:38</datatime>
+    <type>cash</type>
+    <total>7</total>
+  </row>
+  <row>
+    <id>3</id>
+    <customer_id>3</customer_id>
+    <datatime>23-07-2022 08.40:38</datatime>
+    <type>card</type>
+    <total>5.66</total>
+  </row>
+</root>
