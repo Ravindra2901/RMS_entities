@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>50</y>
+      <w>160</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>Restaurant Staff
+--
+id: int
+name: varchar
+role: varchar
+department: varchar
+mobile: varchar
+email: varchar
+address: varchar
+[waiting for message]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>30</x>
+      <y>460</y>
+      <w>150</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Reservation
+--
+id: int
+customer_id: int
+datetime: datetime
+number of guest: int
+[waiting for message]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>260</y>
+      <w>150</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Menu
+--
+id: int
+name: varchar
+cost: float
+[waiting for message]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>250</x>
+      <y>240</y>
+      <w>170</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Orders
+--
+id: int
+menu_id: int
+table_no: int
+customer_id: int
+staff_id: int
+Datetime: datetime
+quantity: int
+subtotal: float
+[waiting for message]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>450</y>
+      <w>160</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Payment
+--
+id: int
+customer_id: int
+datatime: datetime
+type: varchar
+total: float
+[waiting for message]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>470</y>
+      <w>160</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Customer
+--
+id: int
+name: varchar
+mobile: varchar
+email: varchar
+dob: date
+gender: varchar
+address: varchar
+[waiting for message]</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>150</x>
+      <y>280</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;40.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>170</x>
+      <y>500</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>310</y>
+      <w>100</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0;10.0;200.0;80.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>70</y>
+      <w>90</w>
+      <h>290</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;270.0;70.0;270.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>490</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
